@@ -1,0 +1,92 @@
+/* 
+====================
+Custom Styles
+====================
+*/
+* {
+    background: rgb(135, 206, 235);
+}
+div {
+    border: 5px solid rgb(72, 205, 49);
+    color: white;
+    width: 46%;
+    height: 700px;
+    padding: 0 46px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+/* 
+====================
+Header
+====================
+*/
+
+.title {
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* 
+====================
+Main Content
+====================
+*/
+
+img {
+    float: right;
+    max-width: 200px;
+    margin: 0 0 10px 5px;
+    padding-right: 5px;
+}
+p {
+    font-size: 20px;
+}
+
+/* 
+====================
+Navigation
+====================
+*/
+
+nav {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+.aboutus, nav {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    align-items: center;
+}
+h2 {
+    font-size: 28px;
+}
+a {
+    color: rgb(74, 204, 151);
+    margin: 0 2px;
+
+}
+    
+    /* need dividers between nav content */
+
+/* 
+====================
+Footer
+====================
+*/

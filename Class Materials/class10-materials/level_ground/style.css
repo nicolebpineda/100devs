@@ -1,0 +1,138 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+   body * {
+    border: 3px solid black;
+  }
+   body *:hover {
+    background: #B0BEC5;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  /* Header */
+  header {
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+  }
+  li {
+    width: 10%;
+    list-style-type: none;
+    text-align: left;
+    
+  }
+  nav img {
+    width: 80%;
+  }
+  nav button {
+    width: 10%;
+    margin: 20px;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  header, 
+  .primary {
+    background: #546E7A;
+  }
+  
+  /* Main */
+  .primary {
+    text-align: center;
+    height: 300px;
+    float: left;
+    padding: 5% 25% 5% 25%;
+  }
+  
+  /* Why */
+  .why {
+    text-align: center;
+    height: 300px;
+    clear: both;
+    padding: 0 25%;
+    
+  }
+  
+  /* Visit */
+  .visit section {
+    background: #9E9E9E;
+  }
+  .col-1-2 {
+    text-align: center;
+    float: left;
+    padding: 0 25%;
+  }
+  
+  /* Volunteer */
+  .volunteer {
+    clear: both;
+    height: 300px;
+    text-align: center;
+    padding: 0 25%; 
+  }
+  
+  
+  /* Footer */
+  
+  footer {
+    background: #455A64;
+    color: white;
+    border: 3px solid black;
+    clear: both;
+    padding: 0 2%; 
+  }
+  .options h5 {
+    color: #90A4AE;
+  }
+  .options {
+    float: left;
+  }
+  .options > * {
+    margin: 0;
+  }
+  .contact, 
+  .contact a:link {
+    float: right;
+    color: #FAFAFA; 
+  }
+  .contact > * {
+    margin: 0;
+  }
+  h6 + p {
+    color: #CFD8DC;  
+  }
+  p span {
+    display: block;
+  }
+  .tax, hr {
+    clear: both;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
