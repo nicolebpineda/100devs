@@ -2,20 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Coin Flipper</title>
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <h1>Coin Flipper</h1>
-    <input id="headsOrTails" type="text" name="" placeholder="Heads or Tails">
-    <button id="flipCoin" type="button" name="button">Flip Coin</button>
+    <header>
+      <h1>Coin Flipper API</h1>
+    </header>
+      
     <section>
-      <image src="https://i.pinimg.com/originals/a4/89/03/a489031059b5bee46bbbea0f02856309.gif"></image>
+      <input id="headsOrTails" type="text" name="" placeholder="Heads or Tails">
+      <button id="flipCoin" type="button" name="button">Flip Coin</button>
+    </section>
+
+    <section>
+      <img id="headsOfTails" class="hideImage" src="https://media.tenor.com/BBNBkurGEwwAAAAC/two-face.gif">
+
+      <img id="result" src="" alt="">
+    </section>
+
+    <section>
+      <h2 id="result"></h2>
     </section>
     
-    <h2 id="result"></h2>
-
-
     <script type="text/javascript" src="/js/main.js"></script>
   </body>
 </html>
