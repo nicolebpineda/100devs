@@ -37,7 +37,7 @@ const server = http.createServer((req, res) => {
         let result = Math.floor(Math.random() * 2) === 1 ? 'heads' : 'tails';
 
         // Set image based on result
-        let img = ''
+        let img = '';
         result == 'heads' ? img = 'https://i.ebayimg.com/images/g/RRAAAOSwMBZiRGou/s-l500.jpg' : img = 'https://i.etsystatic.com/7350302/r/il/5dbfff/4769254062/il_fullxfull.4769254062_az0p.jpg'
 
         // if code works, display results
