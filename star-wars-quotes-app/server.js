@@ -11,7 +11,7 @@ MongoClient.connect('mongodb+srv://yoda:star-wars@cluster0.ncm1dkt.mongodb.net/?
         const quotesCollection = db.collection('quotes')
 
 
-        // Midlewars
+        // Midlewares
         app.set('view engine', 'ejs')
         app.use(bodyParser.urlencoded({ extended: true }))
         app.use(bodyParser.json())
